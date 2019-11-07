@@ -1,0 +1,270 @@
+@font-face {
+    font-family: PuHuiTi;
+    src: url("../font/Alibaba-PuHuiTi-Regular.ttf");
+}
+
+@font-face {
+    font-family: Arial-Black;
+    src: url("../font/Arial-Black.ttf");
+}
+
+body {
+    height: 1000vh;
+    background-color: #4E00FF;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.colorBlock {
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    transition: 0.75s linear all;
+    width: 500vw;
+    height: 100vh;
+    z-index: 1;
+}
+
+.colorBlock > div {
+    margin-left: 30vw;
+    width: 70vw;
+    height: 100vh;
+    background-color: #FF5800;
+}
+
+.main {
+    position: fixed;
+    left: 0;
+    top: 0;
+    font-family: PuHuiTi, serif;
+    color: #fff;
+    z-index: 2;
+}
+
+.title {
+    position: fixed;
+    top: 6vh;
+    right: 4.6vw;
+    font-size: 1.6vw;
+}
+
+.foot {
+    position: fixed;
+    bottom: 9vh;
+    left: 6.3vw;
+    font-size: 1.6vw;
+}
+
+.indicator {
+    position: fixed;
+    right: 4vw;
+    top: 38.4vh;
+    z-index: 2;
+}
+
+.indicator > div > svg {
+    width: 2vw;
+    height: 2vw;
+    vertical-align: middle;
+}
+
+.indicator > div > svg path {
+    transition: 0.75s linear all;
+    fill: rgba(255, 255, 255, 0.5);
+}
+
+.indicator > div {
+    margin-bottom: 2vh;
+}
+
+.indicator > div > span {
+    transition: 0.75s linear all;
+    display: inline-block;
+    margin-left: 1vw;
+    font-family: PuHuiTi, serif;
+    font-size: 2vw;
+    color: #fff;
+    vertical-align: middle;
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+.synopsis {
+    position: fixed;
+    top: 23.9vh;
+    left: 17.4vw;
+    transition: 0.75s linear all;
+}
+
+.synopsis > span:nth-child(1) {
+    font-family: Arial-Black, serif;
+    font-size: 10.4vw;
+    vertical-align: middle;
+}
+
+.synopsis > span:nth-child(2) {
+    display: inline-block;
+    margin-left: 1.9vw;
+    font-family: PuHuiTi, serif;
+    font-size: 3.6vw;
+    vertical-align: middle;
+
+}
+
+.synopsis > span:nth-child(3) {
+    display: block;
+    font-family: PuHuiTi, serif;
+    font-size: 3.6vw;
+    transform: translate(5.6vw, -25%);
+}
+
+.business {
+    position: fixed;
+    left: 18.6vw;
+    top: 37.9vh;
+    font-family: PuHuiTi, serif;
+}
+
+.business > span {
+    transition: 0.75s linear all;
+    display: block;
+    font-size: 2.6vw;
+    margin-bottom: 6.4vh;
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.business > div {
+    transition: 0.75s linear all;
+    display: inline-block;
+    margin-right: 2.9vw;
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.business > div > img {
+    width: 2.76vw;
+    height: 2.6vw;
+    vertical-align: middle;
+}
+
+.business > div > span {
+    margin-left: 0.8vw;
+    font-size: 1.56vw;
+    vertical-align: middle;
+}
+
+.project {
+    position: fixed;
+    left: 10.2vw;
+    top: 25.65vh;
+    font-family: PuHuiTi, serif;
+}
+
+.project > span {
+    transition: 0.75s linear all;
+    display: block;
+    font-size: 2.6vw;
+    margin-bottom: 8vh;
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.project > div {
+    transition: 0.75s linear all;
+    display: inline-block;
+    margin-right: 2.6vw;
+    transform: translateX(-100%);
+    opacity: 0;
+}
+
+.project > div > img {
+    display: block;
+    background-color: #fff;
+    width: 18.23vw;
+    height: 10.42vw;
+}
+
+.project > div > span {
+    display: block;
+    margin-top: 1.67vw;
+    font-size: 1.56vw;
+}
+
+.team {
+    position: fixed;
+    left: 12.66vw;
+    top: 30.46vh;
+    font-family: PuHuiTi, serif;
+}
+
+.team > span {
+    transition: 0.75s linear all;
+    display: block;
+    font-size: 2.6vw;
+    margin-bottom: 8.52vh;
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.team > div {
+    transition: 0.75s linear all;
+    display: inline-block;
+    margin-right: 5.73vw;
+    text-align: center;
+    transform: translateY(100%);
+    opacity: 0;
+}
+
+.team > div > img {
+    display: block;
+    background-color: #fff;
+    width: 7.8vw;
+    height: 7.8vw;
+    border-radius: 50%;
+}
+
+.team > div > span:nth-child(2) {
+    display: block;
+    margin-top: 1.94vw;
+    font-size: 1.56vw;
+}
+
+.team > div > span:nth-child(3) {
+    display: block;
+    margin-top: 2.5vw;
+    font-size: 1vw;
+}
+
+.liaison {
+    transition: 0.75s linear all;
+    position: fixed;
+    left: 12.76vw;
+    top: 26.11vh;
+    font-family: PuHuiTi, serif;
+    transform: translateX(100%);
+    opacity: 0;
+}
+
+.liaison > span:nth-child(1) {
+    display: block;
+    font-size: 3.13vw;
+    margin-bottom: 3.15vh;
+}
+
+.liaison > span:nth-child(2) {
+    display: block;
+    font-size: 1.56vw;
+    margin-bottom: 4.72vh;
+}
+
+.liaison > img {
+    display: block;
+    background-color: #fff;
+    width: 10.83vw;
+    height: 10.83vw;
+}
