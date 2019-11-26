@@ -23,7 +23,7 @@ body {
     top: 0;
     left: 0;
     display: flex;
-    transition: 0.75s linear all;
+    transition: 0.75s ease-out all;
     width: 500vw;
     height: 100vh;
     z-index: 1;
@@ -73,7 +73,7 @@ body {
 }
 
 .indicator > div > svg path {
-    transition: 0.75s linear all;
+    transition: 0.75s ease-out all;
     fill: rgba(255, 255, 255, 0.5);
 }
 
@@ -82,7 +82,7 @@ body {
 }
 
 .indicator > div > span {
-    transition: 0.75s linear all;
+    transition: 0.75s ease-out all;
     display: inline-block;
     margin-left: 1vw;
     font-family: PuHuiTi, serif;
@@ -97,7 +97,7 @@ body {
     position: fixed;
     top: 23.9vh;
     left: 17.4vw;
-    transition: 0.75s linear all;
+    transition: 0.75s ease-out all;
 }
 
 .synopsis > span:nth-child(1) {
@@ -130,7 +130,7 @@ body {
 }
 
 .business > span {
-    transition: 0.75s linear all;
+    transition: 0.75s ease-out all;
     display: block;
     font-size: 2.6vw;
     margin-bottom: 6.4vh;
@@ -139,7 +139,7 @@ body {
 }
 
 .business > div {
-    transition: 0.75s linear all;
+    transition: 0.75s ease-out all;
     display: inline-block;
     margin-right: 2.9vw;
     transform: translateY(100%);
@@ -166,7 +166,7 @@ body {
 }
 
 .project > span {
-    transition: 0.75s linear all;
+    transition: 0.75s ease-out all;
     display: block;
     font-size: 2.6vw;
     margin-bottom: 8vh;
@@ -175,7 +175,7 @@ body {
 }
 
 .project > div {
-    transition: 0.75s linear all;
+    transition: 0.75s ease-out all;
     display: inline-block;
     margin-right: 2.6vw;
     transform: translateX(-100%);
@@ -203,7 +203,7 @@ body {
 }
 
 .team > span {
-    transition: 0.75s linear all;
+    transition: 0.75s ease-out all;
     display: block;
     font-size: 2.6vw;
     margin-bottom: 8.52vh;
@@ -212,7 +212,7 @@ body {
 }
 
 .team > div {
-    transition: 0.75s linear all;
+    transition: 0.75s ease-out all;
     display: inline-block;
     margin-right: 5.73vw;
     text-align: center;
@@ -241,7 +241,7 @@ body {
 }
 
 .liaison {
-    transition: 0.75s linear all;
+    transition: 0.75s ease-out all;
     position: fixed;
     left: 12.76vw;
     top: 26.11vh;
